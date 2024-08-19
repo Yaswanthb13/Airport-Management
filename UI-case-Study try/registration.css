@@ -1,0 +1,80 @@
+/* Body styles */
+body {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for the form */
+.form-container {
+  background-color: Gray94;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Input groups styles */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Button group styles */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Register button styles */
+button[type="submit"] {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the Register button */
+button[type="submit"]:hover {
+  background-color: Cobalt;
+}
+
+/* Reset button styles */
+button[type="reset"] {
+  background-color: lightgray;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancelled Trips</title>
+    <link rel="stylesheet" href="trips.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="profile.html" id="myProfile">My Profile</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" onclick="toggleDropdown()">My Trips</a>
+                    <div class="dropdown-content" id="myTripsDropdown">
+                        <a href="upcoming.html">Upcoming</a>
+                        <a href="cancelled.html">Cancelled</a>
+                        <a href="completed.html">Completed</a>
+                    </div>
+                </li>
+                <li><a href="login.html" id="logout">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="main-header">
+        <h1>Cancelled Trips</h1>
+    </header>
+
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Flight Name</th>
+                        <th>Origin</th>
+                        <th>Destination</th>
+                        <th>Travel Date</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Flight 404</td>
+                        <td>Houston</td>
+                        <td>New York</td>
+                        <td>2024-08-30</td>
+                        <td>$350</td>
+                    </tr>
+                    <tr>
+                        <td>Flight 505</td>
+                        <td>Los Angeles</td>
+                        <td>Chicago</td>
+                        <td>2024-08-25</td>
+                        <td>$300</td>
+                    </tr>
+                    <tr>
+                        <td>Flight 606</td>
+                        <td>Miami</td>
+                        <td>Las Vegas</td>
+                        <td>2024-08-20</td>
+                        <td>$200</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Airline Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
